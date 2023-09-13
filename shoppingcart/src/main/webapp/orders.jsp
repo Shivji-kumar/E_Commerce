@@ -37,7 +37,7 @@
 	<div class="card-header my-3">This Your All Orders Details Here..</div>
 		<div class="d-flex py-3">
 			
-			<a class="max-3 btn btn-primary" href="cart-check-out">Check Out</a>
+			<a class="max-3 btn btn-primary" href="cart-check-out"><i class="fa-solid fa-bag-shopping"></i>Check Out</a>
 		</div>
 		<table class="table table-dark">
 			<thead>
@@ -60,7 +60,7 @@
 					<td><%= o.getCategory()%></td>
 					<td><%= o.getQuantity()%></td>
 					<td><%= dcf.format(o.getPrice()) %></td>
-					<td><a class="btn btn-danger btn-sm" href="cancel-order?id=<%= o.getOrderId()%>">Cancel</a></tr>
+					<td><a class="btn btn-danger btn-sm" href="cancel-order?id=<%= o.getOrderId()%>">i class="fa-solid fa-trash"></i>Cancel</a></tr>
 					</tr>
 					<%}
 				}

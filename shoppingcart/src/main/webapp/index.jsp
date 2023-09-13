@@ -48,8 +48,8 @@ if(cart_list != null){
 							<h6 class="price">Price $<%= p.getPrice() %></h6>
 							<h6 class="catagory">Category <%= p.getCategory() %></h6>
 							<div class="mt-3 d-flex justify-content-between">
-								<a href="add-to-cart?id=<%= p.getId() %>" class="btn btn-dark btn-sm">Add Cart</a>
-								<a href="order-now?quantity=1&id=<%= p.getId() %>" class="btn btn-primary btn sm">Buy Now</a>
+								<a href="add-to-cart?id=<%= p.getId() %>" class="btn btn-dark btn-sm"><i class="fa-solid fa-house"></i>Add Cart</a>
+								<a href="order-now?quantity=1&id=<%= p.getId() %>" class="btn btn-primary btn sm"><i class="fa-solid fa-store"></i>Buy Now</a>
 							</div>
 						</div>
 					</div>

@@ -37,7 +37,7 @@
 
 					</div>
 					<div class="text-center">
-						<button type="submit" class="btn btn-primary">Login</button>
+						<button type="submit" class="btn btn-primary"><i class="fa-solid fa-user"></i>Login</button>
 					</div>
 
 				</form>

@@ -46,7 +46,7 @@ if(cart_list != null){
 	<div class="container" >
 		<div class="d-flex py-3">
 			<h3>Total Price:$ ${(total>0)?dcf.format(total):0}</h3>
-			<a class="max-3 btn btn-primary" href="cart-check-out">Check Out</a>
+			<a class="max-3 btn btn-primary" href="cart-check-out"><i class="fa-solid fa-square-check"></i>Check Out</a>
 		</div>
 		<table class="table table-dark">
 			<thead>
@@ -75,11 +75,11 @@ if(cart_list != null){
 								<a class="btn btn-sm btn-incre" href="quantity-inc-dec?action=inc&id=<%= c.getId()%>"><i class="fa-solid fa-square-plus"></i> </a>
 									
 							</div>
-							<button type="submit" class="btn btn-primary btn sm">Buy</button>
+							<button type="submit" class="btn btn-primary btn sm"><i class="fa-solid fa-bag-shopping"></i>Buy</button>
 						</form>
 					</td>
 					<td> 
-					<a class="btn btn-danger" href="remove-from-cart?id=<%= c.getId() %>">Remove</a>
+					<a class="btn btn-danger" href="remove-from-cart?id=<%= c.getId() %>"><i class="fa-solid fa-trash"></i>Remove</a>
 					</td>
 				</tr>
 
